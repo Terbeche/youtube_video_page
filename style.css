@@ -1,0 +1,71 @@
+main{
+  display: flex;
+  flex-direction: row;
+}
+.video{
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  padding: 20px;
+
+}
+
+nav ul{
+  display: flex;
+  flex-direction: row;
+}
+
+
+nav ul li {
+  margin: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#principal{
+  margin-left: 20px;
+  flex-grow: 6;
+}
+
+
+.second{
+  float: right;
+  flex-grow: 1;
+
+}
+
+.suggestions{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.suggested{
+  display: flex;
+  flex-direction: row;
+  margin: 5px;
+border: 4mm solid rgba(255, 0, 0, 1 );
+}
+
+aside img{
+margin: 5px;
+width: 40%;
+}
+
+nav ul li a {
+color: red;
+}
+
+a{
+  text-decoration: none;
+
+}
+
+li{
+  list-style: none;
+}
+
+iframe{
+  border: 4mm solid rgba(255, 0, 0, 1 );
+
+}
